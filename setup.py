@@ -19,12 +19,12 @@ def get_dependencies():
     return deps
 
 setup(
-    name='rq-scheduler',
+    name='rq-scheduler-bcfg',
     version='0.8.3',
     author='Selwin Ong',
     author_email='selwin.ong@gmail.com',
-    packages=['rq_scheduler'],
-    url='https://github.com/rq/rq-scheduler',
+    packages=['rq_scheduler_bcfg'],
+    url='https://github.com/as3445/rq-scheduler-bcfg',
     license='MIT',
     description='Provides job scheduling capabilities to RQ (Redis Queue)',
     long_description=open('README.rst').read(),
